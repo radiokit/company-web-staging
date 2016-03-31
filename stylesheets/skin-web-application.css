@@ -8,6 +8,7 @@ Copyright: ThemeMountain
 
 1. Typography
 2. Background Color & Color Classes
+2'.Product Colors
 3. Section Padding
 4. Header Styling
 5. Header Logo
@@ -427,6 +428,91 @@ body,
 .color-hover-purple:hover{
 	color: #933ded;
 }
+
+/*------------------------------------------------------------------
+[2'. Product colors]
+*/
+
+/* electron */
+
+.bkg-electrol{
+	background-color: #FFCC36;
+	border-color: #FFCC36;
+}
+.bkg-hover-electrol:hover{
+	background-color: #FFCC36;
+	border-color: #FFCC36;
+}
+.border-electrol,
+.border-hover-electrol:hover{
+	border-color: #FFCC36;
+}
+.color-electrol,
+.color-hover-electrol:hover{
+	color: #FFCC36;
+}
+
+/* freezol */
+
+.bkg-freezol{
+	background-color: #0ABFFF;
+	border-color: #0ABFFF;
+}
+.bkg-hover-freezol:hover{
+	background-color: #0ABFFF;
+	border-color: #0ABFFF;
+}
+.border-freezol,
+.border-hover-freezol:hover{
+	border-color: #0ABFFF;
+}
+.color-freezol,
+.color-hover-freezol:hover{
+	color: #0ABFFF;
+}
+
+/* chronicol */
+
+.bkg-chronicol{
+	background-color: #6EA147;
+	border-color: #6EA147;
+}
+.bkg-hover-chronicol:hover{
+	background-color: #6EA147;
+	border-color: #6EA147;
+}
+.border-chronicol,
+.border-hover-chronicol:hover{
+	border-color: #6EA147;
+}
+.color-chronicol,
+.color-hover-chronicol:hover{
+	color: #6EA147;
+}
+
+/* depol */
+
+.bkg-depol{
+	background-color: #EC5951;
+	border-color: #EC5951;
+}
+.bkg-hover-depol:hover{
+	background-color: #EC5951;
+	border-color: #EC5951;
+}
+.border-depol,
+.border-hover-depol:hover{
+	border-color: #EC5951;
+}
+.color-depol,
+.color-hover-depol:hover{
+	color: #EC5951;
+}
+
+
+
+
+
 
 /*------------------------------------------------------------------
 [3. Section Padding]
