@@ -436,23 +436,43 @@ body,
 [2'. Product colors]
 */
 
+/* radiokitol - engine and about */
+
+.bkg-radiokitol{
+	background-color: #006c90;
+	border-color: #006c90;
+}
+
+.bkg-hover-radiokitol:hover{
+	background-color: #006c90;
+	border-color: #006c90;
+}
+.border-radiokitol,
+.border-hover-radiokitol:hover{
+	border-color: #006c90;
+}
+.color-radiokitol,
+.color-hover-radiokitol:hover{
+	color: #006c90;
+}
+
 /* electron */
 
 .bkg-electrol{
-	background-color: #FFA81D;
-	border-color: #FFA81D;
+	background-color: #cf881a;
+	border-color: #cf881a;
 }
 .bkg-hover-electrol:hover{
-	background-color: #FFA81D;
-	border-color: #FFA81D;
+	background-color: #cf881a;
+	border-color: #cf881a;
 }
 .border-electrol,
 .border-hover-electrol:hover{
-	border-color: #FFA81D;
+	border-color: #cf881a;
 }
 .color-electrol,
 .color-hover-electrol:hover{
-	color: #FFA81D;
+	color: #cf881a;
 }
 
 /* freezol */
@@ -730,12 +750,12 @@ body,
 
 /* Initial Logo Width */
 .header .logo{
-	width: 3.5rem;
+	width: 20.5rem;
 }
 
 /* Compacted Header Logo Width */
 .header-compact .logo{
-	width: 3.5rem;
+	width: 20.5rem;
 }
 
 /* Initial Logo Styling */
@@ -1940,7 +1960,9 @@ body,
 .fullscreen-bkg-4{
 	background-image: url(../images/chronicle/chronicle_slide1.jpg);
 }
-
+.fullscreen-bkg-5{
+	background-image: url(../images/depot/depot_slide1.jpg);
+}
 /*------------------------------------------------------------------
 [15. About Pages]
 */
@@ -3576,62 +3598,4 @@ blockquote.border{
 .intro-title-2 .breadcrumb a:hover,
 .page-intro .breadcrumb a:hover{
 	opacity: 1;
-}
-
-/*------------------------------------------------------------------
-[28. Resolution Media Queries]
-*/
-
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (     -o-min-device-pixel-ratio: 2/1),
-only screen and (		 min-device-pixel-ratio: 2),
-only screen and (			min-resolution: 192dpi),
-only screen and (				min-resolution: 2dppx) {
-
-	/* Intro Sections */
-	.intro-title-2{
-		background-image: url(../images/slider/slide-2-page-intro@2x.jpg);
-	}
-	.intro-title-2-1{
-		background-image: url(../images/slider/slide-8-page-intro@2x.jpg);
-	}
-	.intro-title-2-2{
-		background-image: url(../images/slider/slide-9-page-intro@2x.jpg);
-	}
-
-	/* Fullscreen Sections */
-	.fullscreen-bkg-2{
-		background-image: url(../images/web-application/slider/slide-3-fs@2x.jpg);
-	}
-	.fullscreen-bkg-3{
-		background-image: url(../images/web-application/slider/slide-4-fs@2x.jpg);
-	}
-	.fullscreen-bkg-4{
-		background-image: url(../images/web-application/slider/slide-5-fs@2x.jpg);
-	}
-
-	/* Stat Sections */
-	.stats-1-1{
-		background-image: url(../images/web-application/generic/hero-1@2x.jpg);
-	}
-
-	/* Hero Sections */
-	.hero-5-1 .media-column{
-		background-image: url(../images/web-application/generic/hero-half-1@2x.jpg);
-	}
-	.hero-5-2 .media-column{
-		background-image: url(../images/team/hero-half-2@2x.jpg);
-	}
-
-	/* Call to Action Sections */
-	.call-to-action-2-1{
-		background-image: url(../images/web-application/generic/call-to-action-1@2x.jpg);
-	}
-
-	/* Signup */
-	.signup-2-1{
-		background-image: url(../images/web-application/generic/signup-1@2x.jpg);
-	}
 }
